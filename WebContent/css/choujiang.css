@@ -1,0 +1,24 @@
+*{margin: 0;padding: 0}
+.title{
+	font-size: 60px;
+	color: red;
+	margin-top: 10px;
+	font-weight: bold; 
+	}
+.bs{
+
+}
+.bs span{
+	display: inline-block;
+	width: 120px;
+	background-color: #708098;
+	color: #fff;
+	height: 60px;
+	line-height: 60px; /*这里的间距每个浏览器有默认值*/
+	text-align: center;
+	margin-left: 10px;
+	border-radius: 10px;
+	cursor: pointer; 
+	font-family: '微软雅黑';
+	font-size:40px;
+}
