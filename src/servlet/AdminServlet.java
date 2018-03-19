@@ -59,7 +59,7 @@ public class AdminServlet extends HttpServlet {
 			e1.printStackTrace();
 		}//判断是否验证成功
 		if(list2==null){
-			request.setAttribute("PointOut", "密码错le!");
+			request.setAttribute("PointOut", "密码错了!");
 			request.getRequestDispatcher("/system/root.jsp").forward(request, response);
 			return;
 		}
